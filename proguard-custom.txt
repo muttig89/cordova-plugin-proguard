@@ -110,3 +110,8 @@
 -dontwarn android.support.v4.**
 -dontwarn android.net.SSLCertificateSocketFactory
 -dontwarn android.net.http.*
+
+
+##----------- Custom rule --------------
+#-keep public class ch.** { *; }
+-ignorewarnings
